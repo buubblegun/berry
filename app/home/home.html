@@ -7,9 +7,11 @@
         <div class="col-md-5">
             <div id="custom-search-input">
                 <div class="input-group col-md-12">
-                    <input type="text" id="Autocomplete" class="form-control input-lg" placeholder="Find your next adventure..."  ng-autocomplete ng-model="result"/>
+                    <input type="text" id="Autocomplete" class="form-control input-lg"
+                           placeholder="Find your next adventure..." ng-autocomplete ng-model="location"
+                           details="locationDetails"/>
                     <span class="input-group-btn">
-                        <button class="btn btn-info btn-lg" type="button">
+                        <button class="btn btn-info btn-lg" type="button" ng-click="searchEvents()">
                             <i class="glyphicon glyphicon-search"></i>
                         </button>
                     </span>
