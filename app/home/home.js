@@ -1,6 +1,8 @@
 'use strict';
 
-angular.module('myApp.home', ['ngRoute'])
+angular.module('myApp.home', [
+    'ngRoute',
+        'ngAutocomplete'])
 
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/home', {
@@ -9,6 +11,6 @@ angular.module('myApp.home', ['ngRoute'])
         });
     }])
 
-    .controller('HomeCtrl', [function() {
-
+    .controller('HomeCtrl', ['$scope', function($scope) {
+        $scope.result = '';
     }]);
