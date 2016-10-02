@@ -26,7 +26,7 @@ angular.module('myApp.home', [
             var lng = $scope.locationDetails.geometry.location.lng();
             $http({
                 method: 'GET',
-                url: 'events/lat='+lat+'&'+'lng='+lng+'radius=50'
+                url: 'searchevents/lat='+lat+'&'+'lng='+lng+'radius=50'
             }).then(function successCallback(response) {
                 console.log(response);
                 console.log("success");
@@ -54,5 +54,13 @@ angular.module('myApp.home', [
                 ];
                 $scope.showTable = 1;
             });
+        }
+
+        $scope.reset = function() {
+            $scope.location = '';
+            $scope.locationDetails = '';
+            $scope.events = '';
+            $scope.showSearch = 1;
+            $scope.showTable = 0;
         }
     }]);

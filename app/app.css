@@ -85,11 +85,11 @@ body {
 }
 
 .customFade.ng-hide-remove {
-    transition: all linear 1000ms;
+    transition: all linear 300ms;
 }
 
 .customFade.ng-hide-add {
-    transition: all linear 500ms;
+    transition: all linear 300ms;
 }
 
 .slideUp {
@@ -137,6 +137,10 @@ td:first-child {
     border-left: 1px solid #c6c9cc;
 }
 tr:nth-child(even) td {
+    background: #eaeaed;
+}
+
+tr:nth-child(odd) td {
     background: #eaeaed;
 }
 tr:last-child td:first-child {
