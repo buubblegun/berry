@@ -26,7 +26,7 @@ angular.module('myApp.home', [
             var lng = $scope.locationDetails.geometry.location.lng();
             $http({
                 method: 'GET',
-                url: 'searchevents/lat='+lat+'&'+'lng='+lng+'radius=50'
+                url: 'http://127.0.0.1:8080/searchevents/?lat='+lat+'&lng='+lng+'&radius=50'
             }).then(function successCallback(response) {
                 console.log(response);
                 console.log("success");

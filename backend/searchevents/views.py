@@ -7,7 +7,7 @@ def index(request):
     radius = request.GET.get('radius','5') #defaulted to 5 miles
     return eb_fetch(lat, lon, radius)
 
-def searchevents(location, radius)
+def searchevents(location, radius):
     print "hello"
     return HttpResponse("{[]}")
 

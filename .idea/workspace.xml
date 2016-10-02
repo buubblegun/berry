@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="652c8a2e-64e4-468d-8589-89b159632e33" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.js" afterPath="$PROJECT_DIR$/app/home/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/backend/settings.py" afterPath="$PROJECT_DIR$/backend/backend/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/searchevents/views.py" afterPath="$PROJECT_DIR$/backend/searchevents/views.py" />
     </list>
     <ignored path="berry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +51,8 @@
       <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/home/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16666667">
-              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.5717593">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -662,12 +665,12 @@
       <option name="number" value="Default" />
       <updated>1475353067948</updated>
       <workItem from="1475353069227" duration="5779000" />
-      <workItem from="1475360448051" duration="7709000" />
+      <workItem from="1475360448051" duration="8515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13488000" />
+    <option name="totallyTimeSpent" value="14294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="24" width="1276" height="777" extended-state="6" />
@@ -819,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/home/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16666667">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.5717593">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding />
         </state>
       </provider>
