@@ -31,6 +31,7 @@ angular.module('myApp.home', [
                 console.log(response);
                 console.log("success");
                 $scope.showTable = 1;
+                $scope.events = response;
             }, function errorCallback(response) {
                 console.log(response);
                 console.log("fails");
