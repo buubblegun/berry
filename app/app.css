@@ -70,3 +70,78 @@ body {
 .top-buffer{
     margin-top: 300px;
 }
+
+.top-buffer-2{
+    margin-top: 100px;
+}
+
+.customFade.ng-hide {
+    opacity: 0;
+}
+
+.customFade.ng-hide-remove,
+.customFade.ng-hide-add {
+    display: block !important;
+}
+
+.customFade.ng-hide-remove {
+    transition: all linear 1000ms;
+}
+
+.customFade.ng-hide-add {
+    transition: all linear 500ms;
+}
+
+.slideUp {
+    transition: .1s linear all;
+    height: 100px;
+    overflow: hidden;
+}
+.slideUp.ng-hide {
+    height:0;
+}
+
+.slideUp2 {
+    transition: .1s linear all;
+    overflow: hidden;
+}
+.slideUp.ng-hide {
+    height:0;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+th,
+td {
+    padding: 6px 15px;
+}
+th {
+    background: #42444e;
+    color: #fff;
+    text-align: left;
+}
+tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+}
+td:first-child {
+    border-left: 1px solid #c6c9cc;
+}
+tr:nth-child(even) td {
+    background: #eaeaed;
+}
+tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}

@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row top-buffer">
+    <div class="row top-buffer customFade slideUp" ng-show="showSearch">
         <div class="col-md-3"></div>
         <div class="col-md-1">
             <img id="logo" src="../resources/images/logo.png" alt="Berry">
@@ -19,5 +19,28 @@
             </div>
         </div>
         <div class="col-md-3"></div>
+    </div>
+
+    <div class="table row top-buffer-2 customFade" ng-show="showTable">
+        <div class="col-md-12">
+            <table>
+                <tr>
+                    <th>Event Name</th>
+                    <th>Event Location</th>
+                    <th>Event Type</th>
+                    <th>Event Description</th>
+                    <th>Event Link</th>
+                    <th>Event Date</th>
+                </tr>
+                <tr ng-repeat="event in events">
+                    <td>{{event.eventName}}</td>
+                    <td>{{event.eventLocation}}</td>
+                    <td>{{event.eventType}}</td>
+                    <td>{{event.eventDescription}}</td>
+                    <td>{{event.eventLink}}</td>
+                    <td>{{event.eventDate}}</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
